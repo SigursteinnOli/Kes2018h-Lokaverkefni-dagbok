@@ -14,3 +14,8 @@ Byrja að setja upp fyrirtækið
 set allar tölvur og allt það
 skýri switchinn SW1
 tengi tölvurnar með snúru og símana með wifi
+ip tala netsins er 192.168.2.0/24
+private netið heitr "Gigabyte inc" og gesta netið heitir "Opið net"
+passwordið fyrir lokaða netinu er password123 en gesta netið er ekki með password
+Nota dhcp á öll tæki
+
