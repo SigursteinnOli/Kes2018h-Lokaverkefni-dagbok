@@ -1,0 +1,1 @@
+# Kes2018h-Lokaverkefni-dagbok
