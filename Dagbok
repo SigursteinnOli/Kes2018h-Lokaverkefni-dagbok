@@ -1,3 +1,16 @@
 22/11/18
 Byrja á verkefninu
 Byrja á að gera tvo homerouter fyrir heimilið og fyrirtækið
+Hendi inn öllum end device fyrir heimanetið
+tengi tölvuna og prentarann með copper straight through kapal
+ip tala netsins er 198.168.1.0/24
+routerinn er á fyrstu nothæfu og öll tækin eru á DHCP
+Nú er ég að reyna setja upp routerinn. Gef honum ssd "Okkar net" passwordið er password123
+Gesta netið heitir "Gestanet" og passwordið á því er "Gestur123"
+notaði WPA" personal sem password dæmið
+Tengdi öll tæki. þurfti að fara í settings og taka config úr felum
+
+Byrja að setja upp fyrirtækið
+set allar tölvur og allt það
+skýri switchinn SW1
+tengi tölvurnar með snúru og símana með wifi
