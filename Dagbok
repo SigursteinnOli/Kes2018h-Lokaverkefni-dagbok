@@ -36,4 +36,12 @@ set password á allar vty línur sem "cisco123"
 int vlan 1. Set ip töluna 192.168.2.2 255.255.255.0 á switchinn
 copy running cofig yfir á starting config
 set default gateway sem 192.168.2.1
+geri username Siggi
+set domain name sem cisco.com
+breyti yfir í ssh version 2 með 1024 bits
+set passwordið "pass123" á usernafið Siggi
+fer á vty línurnar
+transport input ssh
+geri login local og kveiki síðan á ssh version 2
+copy running conf aftur á starting
 #Router
