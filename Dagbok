@@ -17,7 +17,23 @@ set allar tölvur og allt það
 skýri switchinn SW1
 tengi tölvurnar með snúru og símana með wifi
 ip tala netsins er 192.168.2.0/24
+ip routerins er 192.168.2.1
 private netið heitr "Gigabyte inc" og gesta netið heitir "Opið net"
 passwordið fyrir lokaða netinu er password123 en gesta netið er ekki með password
 Nota dhcp á öll tæki
 
+
+27/11/18
+#Heimarouter
+
+
+#Fyrirtæki
+#switch
+Byrja á að tengja mig við switchinn með bláusnúruni til þess að setja upp security
+enable secret á switchinn með passwordið "cisco123"
+set password á line 0 "subnet"
+set password á allar vty línur sem "cisco123"
+int vlan 1. Set ip töluna 192.168.2.2 255.255.255.0 á switchinn
+copy running cofig yfir á starting config
+set default gateway sem 192.168.2.1
+#Router
