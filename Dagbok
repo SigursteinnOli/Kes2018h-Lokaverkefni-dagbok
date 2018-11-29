@@ -53,6 +53,12 @@ Ljósleiðarinn,s_fiber, s_adsl, r_isp og Rix fá secret password "cisco123" á 
 line vty og console fá passwordið "subnet"
 encrypta öll password
 
+R_ISP
+ip talan 192.168.50.50 á g0/0
+ip talan 192.168.51.50 á g0/1
+ip talan 192.168.52.50 á g0/2
+
+
 
 
 
