@@ -58,6 +58,28 @@ ip talan 192.168.50.50 á g0/0
 ip talan 192.168.51.50 á g0/1
 ip talan 192.168.52.50 á g0/2
 
+Ljósleiðarinnn
+ip tala 192.168.100.100 á g0/0
+ip tala 192.168.101.100 á g1/0
+
+S_ADSL default gateway sem 192.168.50.50
+RIX default gateway sem 192.168.51.50
+S_FIBER default gateway sem 192.168.52.50
+
+
+
+
+DNS
+bjó til www.siggi.com með ip töluna 150.25.10.5
+
+isp_dhcp
+nafnið er DHCP
+start ip 192.168.0.1  max users 255  dns 150.25.10.5
+
+
+
+
+
 
 
 
