@@ -41,4 +41,20 @@ fer á vty línurnar
 transport input ssh
 geri login local og kveiki síðan á ssh version 2
 copy running conf aftur á starting
-#Router
+
+
+29/11/18
+#isp
+Er að reyna að gera miðju isp'ann
+hendi öllum tækjum inn og tengi þau
+Set viðeigandi hostname á öll tæki
+
+Ljósleiðarinn,s_fiber, s_adsl, r_isp og Rix fá secret password "cisco123" á enable
+line vty og console fá passwordið "subnet"
+encrypta öll password
+
+
+
+
+
+
