@@ -18,6 +18,7 @@ skýri switchinn SW1
 tengi tölvurnar með snúru og símana með wifi
 ip tala netsins er 192.168.2.0/24
 ip routerins er 192.168.2.1
+dns routerins er 192.168.51.60
 private netið heitr "Gigabyte inc" og gesta netið heitir "Opið net"
 passwordið fyrir lokaða netinu er password123 en gesta netið er ekki með password
 Nota dhcp á öll tæki
@@ -73,7 +74,7 @@ ip tala 192.168.50.60
 isp_dhcp
 nafnið er DHCP
 ip tala 192.168.50.10
-start ip 192.168.50.100  max users 150  dns 150.25.10.5
+start ip 192.168.50.100  max users 150  dns 192.168.51.60
 
 
 4/12/18
@@ -89,7 +90,7 @@ set serverinn á static ip tölu 192.168.2.200/24
 #heima router
 set internet portið á 192.168.101.99/24
 default gateway 192.168.101.100
-dns 150.25.10.5
+dns 192.168.51.60
 
 seti allan ispan í "cloud"
 
