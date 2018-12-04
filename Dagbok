@@ -49,7 +49,7 @@ Er að reyna að gera miðju isp'ann
 hendi öllum tækjum inn og tengi þau
 Set viðeigandi hostname á öll tæki
 
-Ljósleiðarinn,s_fiber, s_adsl, r_isp og Rix fá secret password "cisco123" á enable
+Ljósleiðarinn,s_fiber, s_adsl, r_isp og Rix fá secret password "cisco123" á enable.
 line vty og console fá passwordið "subnet"
 encrypta öll password
 
@@ -76,8 +76,22 @@ ip tala 192.168.50.10
 start ip 192.168.50.100  max users 150  dns 150.25.10.5
 
 
+4/12/18
 
+laga ip tölurnar á routerunum á heimanetinu og fyrirtækinu.
+Annað skipti sem þeir skiptast bara sjálfir yfir í 192.168.0.1
 
+#Serverinn hjá fyrirtækinu
+set default gateway sem 192.168.2.1. ip á routerinum
+set dns serverinn sem 150.25.10.5
+set serverinn á static ip tölu 192.168.2.200/24
+
+#heima router
+set internet portið á 192.168.101.99/24
+default gateway 192.168.101.100
+dns 150.25.10.5
+
+seti allan ispan í "cloud"
 
 
 
