@@ -92,7 +92,11 @@ set internet portið á 192.168.101.99/24
 default gateway 192.168.101.100
 dns 192.168.51.60
 
+ip route alla routerana í ispanum
+
 seti allan ispan í "cloud"
+
+
 
 
 
