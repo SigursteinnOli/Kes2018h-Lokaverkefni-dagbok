@@ -102,6 +102,40 @@ set wireless wmp300n á serverinn í fyrirtækinu
 Kveiki á http porti
 serverinn er á ip töluni 192.168.2.200
 
+#s_adsl
+int vlan 1. Set ip töluna 192.168.50.20 255.255.255.0 á switchinn
+set default gateway sem 192.168.50.50
+set domain name sem cisco.com
+breyti yfir í ssh version 2 með 1024 bits
+set passwordið "pass123" á usernafið Siggi
+fer á vty línurnar
+transport input ssh
+geri login local og kveiki síðan á ssh version 2
+copy running conf aftur á starting
+
+#s_fiber
+int vlan 1. Set ip töluna 192.168.52.20 255.255.255.0 á switchinn
+set default gateway sem 192.168.52.50
+set domain name sem cisco.com
+breyti yfir í ssh version 2 með 1024 bits
+set passwordið "pass123" á usernafið Siggi
+fer á vty línurnar
+transport input ssh
+geri login local og kveiki síðan á ssh version 2
+copy running conf aftur á starting
+
+#rix
+int vlan 1. Set ip töluna 192.168.51.20 255.255.255.0 á switchinn
+set default gateway sem 192.168.51.50
+set domain name sem cisco.com
+breyti yfir í ssh version 2 með 1024 bits
+set passwordið "pass123" á usernafið Siggi
+fer á vty línurnar
+transport input ssh
+geri login local og kveiki síðan á ssh version 2
+copy running conf aftur á starting
+
+
 
 
 
